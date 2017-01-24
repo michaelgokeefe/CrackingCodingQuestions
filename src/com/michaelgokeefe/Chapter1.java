@@ -96,4 +96,83 @@ public class Chapter1 {
         }
         return url;
     }
+
+    // 1.4
+    public static boolean isPalindromePermutation(String val) {
+        if (val == null) {
+            return false;
+        }
+
+        int[] freq = new int[Character.getNumericValue('z') - Character.getNumericValue('a') + 1];
+
+
+        int oddCount = 0;
+
+        for (int i = 0; i < val.length(); i++) {
+            char curr = val.charAt(i);
+
+            int index = getCharNumber(curr);
+
+            if (index < 0) {
+                continue;
+            }
+
+            if (curr == ' ') {
+                continue;
+            }
+
+            int currFreq = ++freq[index];
+
+            if (currFreq % 2 == 1) {
+                oddCount++;
+            } else {
+                oddCount--;
+            }
+        }
+        return oddCount <= 1;
+    }
+
+    // 1.4 - bit vector version, assumes only english words (case insensitive)
+    public static boolean isPalPermWithBitVector(String val) {
+        int bitVector = createBitVector(val);
+        return bitVector == 0 || checkExactlyOneBitSet(bitVector);
+    }
+
+    private static int createBitVector(String val) {
+        int bitVector = 0;
+        for (char c : val.toCharArray()) {
+            int index = getCharNumber(c);
+            bitVector = toggle(bitVector, index);
+        }
+        return bitVector;
+    }
+
+    private static int getCharNumber(Character c) {
+        int a = Character.getNumericValue('a');
+        int z = Character.getNumericValue('z');
+        int val = Character.getNumericValue(c);
+        if (a <= val && val <= z) {
+            return val - a;
+        }
+        return -1;
+    }
+
+    private static int toggle(int bitVector, int index) {
+        if (index < 0) {
+            return bitVector;
+        }
+
+        int mask = 1 << index;
+
+        if ((bitVector & mask) == 0) {
+            bitVector |= mask;
+        } else {
+            bitVector &= ~mask;
+        }
+        return bitVector;
+    }
+
+    private static boolean checkExactlyOneBitSet(int bitVector) {
+        return (bitVector & (bitVector - 1)) == 0;
+    }
 }

@@ -54,6 +54,15 @@ public class Chapter1Test {
         assertEquals(outputStr, new String(Chapter1.replaceSpaces(inputStr.toCharArray(), 13)));
     }
 
+    @Test
+    public void testIsPalidromePermutation() throws Exception {
+        String yes = "TtyYLlo";
+        String no = "TtyYLloohhhy";
+
+        assertEquals(false, Chapter1.isPalindromePermutation(no));
+        assertEquals(true, Chapter1.isPalindromePermutation(yes));
+    }
+
 
 
 }
