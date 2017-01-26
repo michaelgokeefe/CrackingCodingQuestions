@@ -175,4 +175,51 @@ public class Chapter1 {
     private static boolean checkExactlyOneBitSet(int bitVector) {
         return (bitVector & (bitVector - 1)) == 0;
     }
+
+    // 1.5
+    public static boolean isOneAway(String s1, String s2) {
+        if (s1 == null || s2 == null) {
+            return false;
+        }
+
+        if (Math.abs(s1.length() - s2.length()) > 1) {
+            return false;
+        } else if (s1.length() > s2.length()) {
+            return  isOneInsertAway(s1, s2);
+        } else if (s1.length() < s2.length()) {
+            return isOneInsertAway(s2, s1);
+        } else {
+            return isOneReplaceAway(s1, s2);
+        }
+    }
+
+    private static boolean isOneReplaceAway(String s1, String s2) {
+        boolean oneDiff = false;
+        for (int i = 0; i < s1.length(); i++) {
+            if (s1.charAt(i) != s2.charAt(i)) {
+                if (!oneDiff) {
+                    oneDiff = true;
+                } else {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    private static boolean isOneInsertAway(String longStr, String shortStr) {
+        boolean oneDiff = false;
+        for (int i = 0; i < shortStr.length(); i++) {
+            if (!oneDiff) {
+                if (shortStr.charAt(i) != longStr.charAt(i)) {
+                    oneDiff = true;
+                }
+            } else {
+                if (shortStr.charAt(i - 1) != longStr.charAt(i)) {
+                    return false;
+                }
+            }
+        }
+        return !oneDiff || shortStr.charAt(shortStr.length() - 1) == longStr.charAt(longStr.length() - 1);
+    }
 }

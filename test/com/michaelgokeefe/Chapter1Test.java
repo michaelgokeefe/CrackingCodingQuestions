@@ -63,6 +63,26 @@ public class Chapter1Test {
         assertEquals(true, Chapter1.isPalindromePermutation(yes));
     }
 
+    @Test
+    public void testIsOneAway() throws Exception {
+        String yes1 = "pale";
+        String yes2 = "ple";
+
+        String yes3 = "bucket";
+        String yes4 = "buckit";
+
+        String no1 = "";
+        String no2 = "sdflk";
+
+        String no3 = "bucket";
+        String no4 = "bckit";
+
+        assertEquals(true, Chapter1.isOneAway(yes1, yes2));
+        assertEquals(true, Chapter1.isOneAway(yes3, yes4));
+        assertEquals(false, Chapter1.isOneAway(no1, no2));
+        assertEquals(false, Chapter1.isOneAway(no3, no4));
+    }
+
 
 
 }
