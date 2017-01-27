@@ -8,7 +8,7 @@ import java.util.TreeSet;
 /**
  * Created by Michael on 1/4/17.
  */
-public class Chapter1 {
+public class StringsCh1 {
 
     // 1.1
     public static boolean isUniqueWithSet(String toCheck) {
