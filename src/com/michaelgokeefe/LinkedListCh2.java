@@ -76,7 +76,7 @@ public class LinkedListCh2 {
         back = bPtr;
     }
 
-    // 2.1 - solving assuming there is no back of the list reference
+    // 2.2 - solving assuming there is no back of the list reference
     // k = 0 references the back of the list, k = 1 references the seconded node from the back, and so on
     public int indexFromTheBack(int k) {
         if (k >= size || k < 0) {
@@ -89,6 +89,31 @@ public class LinkedListCh2 {
         while (count > 0) {
             curr = curr.next;
             count--;
+        }
+
+        return curr.data;
+    }
+
+    // 2.2 - assuming no size reference
+    public int indexOfFromTheBack(int index) {
+        if (index < 0) {
+            return -1;
+        }
+
+        Node curr = head;
+        Node runner = head;
+
+        while (index > 0) {
+            if (runner.next != null) {
+                index--;
+                runner = runner.next;
+            } else {
+                return -1;
+            }
+        }
+        while (runner.next != null) {
+            runner = runner.next;
+            curr = curr.next;
         }
 
         return curr.data;

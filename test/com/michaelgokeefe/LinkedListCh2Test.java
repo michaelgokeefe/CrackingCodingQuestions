@@ -34,4 +34,15 @@ public class LinkedListCh2Test {
         assertEquals(6, list.indexFromTheBack(5));
     }
 
+    @Test
+    public void testIndexFromBackWithoutSize() throws Exception {
+        int[] array = new int[] { 1, 6, 9, 5, 3, 7, 2 };
+
+        LinkedListCh2 list = new LinkedListCh2(array);
+
+        assertEquals(2, list.indexOfFromTheBack(0));
+        assertEquals(3, list.indexOfFromTheBack(2));
+        assertEquals(-1, list.indexOfFromTheBack(100));
+        assertEquals(6, list.indexOfFromTheBack(5));
+    }
 }
