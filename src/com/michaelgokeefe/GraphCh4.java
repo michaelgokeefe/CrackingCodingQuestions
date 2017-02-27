@@ -67,6 +67,11 @@ public class GraphCh4 {
         }
     }
 
+    public Node getNodeById(int id) {
+        return adjList.get(id);
+    }
+
+    // 4.1
     public boolean areNodesConnected(Node src, Node dst) {
 
         if (src == null || dst == null) { return false; }
@@ -95,10 +100,4 @@ public class GraphCh4 {
         }
         return false;
     }
-
-    public Node getNodeById(int id) {
-        return adjList.get(id);
-    }
-
-    
 }
