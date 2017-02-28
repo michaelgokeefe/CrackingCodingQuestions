@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f52b2d2-c995-45bb-8ea9-75689847ee92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/michaelgokeefe/DynamicRecursionCh8.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/michaelgokeefe/SortingSearchingCh10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/michaelgokeefe/DynamicRecursionCh8Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/michaelgokeefe/SortingSearchingCh10Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/michaelgokeefe/ModerateCh16.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/michaelgokeefe/ModerateCh16Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CrackingCodingQuestions.iws" />
@@ -28,27 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GraphCh4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/GraphCh4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
-              <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#1664#1665#0" expanded="true" />
-                <element signature="e#1702#1703#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TreeCh4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/TreeCh4.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +88,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortingSearchingCh10Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortingSearchingCh10Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/SortingSearchingCh10Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModerateCh16.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/ModerateCh16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModerateCh16Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/ModerateCh16Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,16 +133,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphCh4Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/GraphCh4Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -190,6 +177,9 @@
         <option value="$PROJECT_DIR$/test/com/michaelgokeefe/DynamicRecursionCh8Test.java" />
         <option value="$PROJECT_DIR$/src/com/michaelgokeefe/SortingSearchingCh10.java" />
         <option value="$PROJECT_DIR$/test/com/michaelgokeefe/SortingSearchingCh10Test.java" />
+        <option value="$PROJECT_DIR$/src/ModerateCh16.java" />
+        <option value="$PROJECT_DIR$/test/com/michaelgokeefe/ModerateCh16Test.java" />
+        <option value="$PROJECT_DIR$/src/com/michaelgokeefe/ModerateCh16.java" />
       </list>
     </option>
   </component>
@@ -202,7 +192,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="714" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -304,11 +294,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.michaelgokeefe" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.michaelgokeefe" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter10Tests">
+  <component name="RunManager" selected="JUnit.Chapter16Tests">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -770,6 +763,27 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="Chapter16Tests" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CrackingCodingQuestions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.michaelgokeefe" />
+      <option name="MAIN_CLASS_NAME" value="com.michaelgokeefe.ModerateCh16Test" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="Chapter1Tests" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="CrackingCodingQuestions" />
@@ -791,14 +805,15 @@
       <patterns />
       <method />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter2Tests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter4GraphTests" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter4TreeTests" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter5Tests" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter8Tests" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.Chapter10Tests" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.Chapter1Tests" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.Chapter16Tests" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.Chapter1Tests" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -821,47 +836,47 @@
       <workItem from="1486497696935" duration="1121000" />
       <workItem from="1487469387841" duration="87000" />
       <workItem from="1488147067069" duration="10235000" />
-      <workItem from="1488217514395" duration="1459000" />
+      <workItem from="1488217514395" duration="2832000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter4TreeTests - 2017.02.26 at 17h 03m 48s.xml">
-      <configuration name="Chapter4TreeTests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 08h 58m 18s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4TreeTests - 2017.02.26 at 17h 05m 56s.xml">
-      <configuration name="Chapter4TreeTests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 08h 58m 33s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4TreeTests - 2017.02.26 at 17h 06m 39s.xml">
-      <configuration name="Chapter4TreeTests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 09h 00m 36s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4TreeTests - 2017.02.26 at 17h 06m 52s.xml">
-      <configuration name="Chapter4TreeTests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 09h 01m 13s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4TreeTests - 2017.02.26 at 17h 08m 32s.xml">
-      <configuration name="Chapter4TreeTests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 09h 01m 24s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4TreeTests - 2017.02.26 at 17h 13m 01s.xml">
-      <configuration name="Chapter4TreeTests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 09h 01m 43s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter4TreeTests - 2017.02.26 at 21h 45m 16s.xml">
-      <configuration name="Chapter4TreeTests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 09h 03m 39s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter5Tests - 2017.02.26 at 21h 45m 37s.xml">
-      <configuration name="Chapter5Tests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 09h 03m 47s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter8Tests - 2017.02.27 at 09h 50m 29s.xml">
-      <configuration name="Chapter8Tests" configurationId="JUnit" />
+    <history-entry file="Chapter16Tests - 2017.02.28 at 09h 03m 53s.xml">
+      <configuration name="Chapter16Tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Chapter8Tests - 2017.02.27 at 15h 20m 01s.xml">
       <configuration name="Chapter8Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29008000" />
+    <option name="totallyTimeSpent" value="30381000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -871,7 +886,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34059098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -948,22 +963,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/GraphCh4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1386,6 +1385,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/ModerateCh16Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/ModerateCh16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
