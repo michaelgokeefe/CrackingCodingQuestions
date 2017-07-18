@@ -83,6 +83,20 @@ public class StringsCh1Test {
         assertEquals(false, StringsCh1.isOneAway(no3, no4));
     }
 
+    // 1.6
+    @Test
+    public void testStringCompression() {
+        testCompression("", "");
+        testCompression("hi", "hi");
+        testCompression("hiii", "h1i3");
+        testCompression("hii", "hii");
+        testCompression("miiiichhhhaeeeel", "m1i4c1h4a1e4l1");
+    }
+
+    private void testCompression(String toCompress, String expectedResult) {
+        assertEquals(expectedResult, StringsCh1.compressString(toCompress));
+    }
+
 
 
 }

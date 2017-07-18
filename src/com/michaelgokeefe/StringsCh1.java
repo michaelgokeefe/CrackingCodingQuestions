@@ -222,4 +222,38 @@ public class StringsCh1 {
         }
         return !oneDiff || shortStr.charAt(shortStr.length() - 1) == longStr.charAt(longStr.length() - 1);
     }
+
+    // 1.6
+    public static String compressString(String str) {
+        if (str.length() < 2) {
+            return str;
+        }
+
+        String compressedString = getCompressedString(str);
+
+        if (compressedString.length() > str.length()) {
+            return str;
+        }
+        return compressedString;
+    }
+
+    private static String getCompressedString(String str) {
+        StringBuilder stringBuilder = new StringBuilder();
+        int count = 0;
+        char prevChar = str.charAt(0);
+        for (char currChar : str.toCharArray()) {
+            if (prevChar == currChar) {
+                count++;
+            } else {
+                stringBuilder.append(prevChar);
+                stringBuilder.append(count);
+                prevChar = currChar;
+                count = 1;
+            }
+        }
+        stringBuilder.append(prevChar);
+        stringBuilder.append(count);
+
+        return stringBuilder.toString();
+    }
 }
