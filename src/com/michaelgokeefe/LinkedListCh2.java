@@ -119,6 +119,27 @@ public class LinkedListCh2 {
         return curr.data;
     }
 
+
+    // 2.3 - head index is 0
+    public void deleteMiddleNode(int index) {
+        if (index < 1 || index >= size - 1) {
+            throw new IllegalArgumentException("Index is not within the head and tail of the linked list.");
+        }
+
+        Node nodeToDelete = iterateToNode(index);
+        nodeToDelete.data = nodeToDelete.next.data;
+        nodeToDelete.next = nodeToDelete.next.next;
+        size--;
+    }
+
+    private Node iterateToNode(int index) {
+        Node curr = head;
+        for (int i = 0; i < index; i++) {
+            curr = curr.next;
+        }
+        return curr;
+    }
+
     
 
 

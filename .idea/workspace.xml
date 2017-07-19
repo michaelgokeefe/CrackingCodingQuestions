@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5f52b2d2-c995-45bb-8ea9-75689847ee92" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michaelgokeefe/StringsCh1.java" afterPath="$PROJECT_DIR$/src/com/michaelgokeefe/StringsCh1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/michaelgokeefe/StringsCh1Test.java" afterPath="$PROJECT_DIR$/test/com/michaelgokeefe/StringsCh1Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java" afterPath="$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java" afterPath="$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java" />
     </list>
     <ignored path="CrackingCodingQuestions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DynamicRecursionCh8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/DynamicRecursionCh8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SortingSearchingCh10.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/SortingSearchingCh10.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,17 +59,17 @@
       <file leaf-file-name="StringsCh1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/StringsCh1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="3690">
               <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringsCh1Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringsCh1Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/StringsCh1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="831">
               <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding />
             </state>
@@ -92,8 +79,21 @@
       <file leaf-file-name="LinkedListCh2Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="348">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="e#1838#1839#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListCh2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,8 +153,6 @@
         <option value="$PROJECT_DIR$/src/com/michaelgokeefe/Chapter1.java" />
         <option value="$PROJECT_DIR$/test/com/michaelgokeefe/Chapter1Test.java" />
         <option value="$PROJECT_DIR$/src/com/michaelgokeefe/Chapter2.java" />
-        <option value="$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java" />
-        <option value="$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java" />
         <option value="$PROJECT_DIR$/test/com/michaelgokeefe/GraphCh4Test.java" />
         <option value="$PROJECT_DIR$/src/com/michaelgokeefe/GraphCh4.java" />
         <option value="$PROJECT_DIR$/src/com/michaelgokeefe/TreeNodeCh4.java" />
@@ -172,6 +170,8 @@
         <option value="$PROJECT_DIR$/src/com/michaelgokeefe/ModerateCh16.java" />
         <option value="$PROJECT_DIR$/src/com/michaelgokeefe/StringsCh1.java" />
         <option value="$PROJECT_DIR$/test/com/michaelgokeefe/StringsCh1Test.java" />
+        <option value="$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java" />
+        <option value="$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java" />
       </list>
     </option>
   </component>
@@ -182,9 +182,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="712" />
+    <option name="x" value="1280" />
+    <option name="y" value="-657" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +212,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,9 +270,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +295,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter1Tests">
+  <component name="RunManager" selected="JUnit.Chapter2Tests">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -904,29 +905,12 @@
       <workItem from="1488147067069" duration="10235000" />
       <workItem from="1488217514395" duration="2832000" />
       <workItem from="1488343452025" duration="114000" />
-      <workItem from="1500398125895" duration="1515000" />
+      <workItem from="1500398125895" duration="1571000" />
+      <workItem from="1500482811213" duration="1277000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter1Tests - 2017.07.18 at 10h 28m 23s.xml">
-      <configuration name="Chapter1Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter1Tests - 2017.07.18 at 10h 28m 47s.xml">
-      <configuration name="Chapter1Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter1Tests - 2017.07.18 at 10h 28m 58s.xml">
-      <configuration name="Chapter1Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter1Tests - 2017.07.18 at 10h 29m 23s.xml">
-      <configuration name="Chapter1Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter1Tests - 2017.07.18 at 10h 36m 44s.xml">
-      <configuration name="Chapter1Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter1Tests - 2017.07.18 at 10h 38m 17s.xml">
-      <configuration name="Chapter1Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter1Tests - 2017.07.18 at 10h 40m 12s.xml">
       <configuration name="Chapter1Tests" configurationId="JUnit" />
     </history-entry>
@@ -936,15 +920,33 @@
     <history-entry file="Chapter1Tests - 2017.07.18 at 10h 41m 33s.xml">
       <configuration name="Chapter1Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Chapter2Tests - 2017.07.19 at 09h 57m 19s.xml">
+      <configuration name="Chapter2Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter2Tests - 2017.07.19 at 09h 57m 34s.xml">
+      <configuration name="Chapter2Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter2Tests - 2017.07.19 at 10h 01m 37s.xml">
+      <configuration name="Chapter2Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter2Tests - 2017.07.19 at 10h 02m 34s.xml">
+      <configuration name="Chapter2Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter2Tests - 2017.07.19 at 10h 06m 18s.xml">
+      <configuration name="Chapter2Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter2Tests - 2017.07.19 at 10h 06m 35s.xml">
+      <configuration name="Chapter2Tests" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Chapter8Tests - 2017.02.27 at 15h 20m 01s.xml">
       <configuration name="Chapter8Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32010000" />
+    <option name="totallyTimeSpent" value="33343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="712" extended-state="0" />
+    <frame x="1280" y="-657" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -954,17 +956,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33903578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33805668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39813375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39777327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1021,8 +1023,14 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1086,7 +1094,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,7 +1137,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,7 +1180,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-          <folding />
+          <folding>
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,7 +1223,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,14 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4380">
@@ -1416,14 +1428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/ModerateCh16Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/DynamicRecursionCh8Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1448,17 +1452,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/StringsCh1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="3690">
           <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
           <folding />
         </state>
@@ -1466,8 +1462,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/StringsCh1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="831">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/ModerateCh16Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/michaelgokeefe/LinkedListCh2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelgokeefe/LinkedListCh2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
       </provider>

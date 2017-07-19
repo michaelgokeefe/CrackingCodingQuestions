@@ -8,6 +8,9 @@ import static org.junit.Assert.*;
  * Created by Michael on 1/27/17.
  */
 public class LinkedListCh2Test {
+    private int[] listVals = new int[] { 1, 2, 3, 4, 5 };
+    private LinkedListCh2 list = new LinkedListCh2(listVals);
+
     @Test
     public void removeDups() throws Exception {
         int[] withDups = new int[] { 1, 5, 5, 8, 4, 2, 4, 8, 9, 66, 1, 1 };
@@ -44,5 +47,18 @@ public class LinkedListCh2Test {
         assertEquals(3, list.indexOfFromTheBack(2));
         assertEquals(-1, list.indexOfFromTheBack(100));
         assertEquals(6, list.indexOfFromTheBack(5));
+    }
+
+    // 2.3
+    @Test
+    public void testDeleteMiddleNode() throws Exception {
+        int[] expected = new int[] { 1, 3, 4, 5};
+        list.deleteMiddleNode(1);
+        assertArrayEquals(expected, list.toIntArray());
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void attemptToDeleteNotMiddleNodeThrowsException() {
+        list.deleteMiddleNode(5);
     }
 }
