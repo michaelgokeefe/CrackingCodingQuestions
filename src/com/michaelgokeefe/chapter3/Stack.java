@@ -1,4 +1,4 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter3;
 
 import java.util.EmptyStackException;
 

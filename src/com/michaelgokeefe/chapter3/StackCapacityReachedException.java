@@ -1,4 +1,4 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter3;
 
 /**
  * Created by Michael on 7/20/17.

@@ -1,9 +1,9 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter16;
 
 /**
  * Created by Michael on 2/28/17.
  */
-public class ModerateCh16 {
+public class Moderate {
 
     public static boolean swap(int n, int m) {
         // for testing

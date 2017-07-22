@@ -1,6 +1,7 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter3;
 
 
+import com.michaelgokeefe.chapter3.SetOfStacks;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

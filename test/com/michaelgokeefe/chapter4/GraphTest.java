@@ -1,5 +1,6 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter4;
 
+import com.michaelgokeefe.chapter4.Graph;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -7,7 +8,7 @@ import static org.junit.Assert.*;
 /**
  * Created by Michael on 2/26/17.
  */
-public class GraphCh4Test {
+public class GraphTest {
     @Test
     public void areNodesConnected() throws Exception {
         String oneTwoNotConnected = "1 2 3 \n " +
@@ -20,10 +21,10 @@ public class GraphCh4Test {
                                     "2 3\n " +
                                     "3 1 2";
 
-        GraphCh4 notConnect = new GraphCh4(oneTwoNotConnected);
+        Graph notConnect = new Graph(oneTwoNotConnected);
         assertEquals(false, notConnect.areNodesConnected(notConnect.getNodeById(1), notConnect.getNodeById(2)));
 
-        GraphCh4 connected = new GraphCh4(oneTwoConnected);
+        Graph connected = new Graph(oneTwoConnected);
         assertEquals(true, connected.areNodesConnected(connected.getNodeById(1), connected.getNodeById(2)));
 
     }

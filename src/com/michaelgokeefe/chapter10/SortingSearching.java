@@ -1,9 +1,9 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter10;
 
 /**
  * Created by Michael on 2/27/17.
  */
-public class SortingSearchingCh10 {
+public class SortingSearching {
     public static void merge(int[] a, int[] b, int endA) {
 
         if (a == null || b == null || endA < 0) {

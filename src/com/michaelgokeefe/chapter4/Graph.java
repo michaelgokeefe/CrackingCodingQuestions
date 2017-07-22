@@ -1,11 +1,11 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter4;
 
 import java.util.*;
 
 /**
  * Created by Michael on 2/18/17.
  */
-public class GraphCh4 {
+public class Graph {
 
     private Map<Integer, Node> adjList = new HashMap<>();
 
@@ -39,7 +39,7 @@ public class GraphCh4 {
      * Quick and simple graph constructor
      * Assumes correctly formatted user input and does no error checking
      */
-    public GraphCh4(String adjList) {
+    public Graph(String adjList) {
 
         Scanner lineScanner = new Scanner(adjList);
 

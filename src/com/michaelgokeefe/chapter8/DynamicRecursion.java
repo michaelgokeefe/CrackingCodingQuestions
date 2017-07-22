@@ -1,9 +1,9 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter8;
 
 /**
  * Created by Michael on 2/27/17.
  */
-public class DynamicRecursionCh8 {
+public class DynamicRecursion {
 
     // 8.1
     public static int numWays(int n) {

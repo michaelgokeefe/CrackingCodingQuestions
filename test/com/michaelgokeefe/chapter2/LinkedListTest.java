@@ -1,5 +1,6 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter2;
 
+import com.michaelgokeefe.chapter2.LinkedList;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -7,16 +8,16 @@ import static org.junit.Assert.*;
 /**
  * Created by Michael on 1/27/17.
  */
-public class LinkedListCh2Test {
+public class LinkedListTest {
     private int[] listVals = new int[] { 1, 2, 3, 4, 5 };
-    private LinkedListCh2 list = new LinkedListCh2(listVals);
+    private LinkedList list = new LinkedList(listVals);
 
     @Test
     public void removeDups() throws Exception {
         int[] withDups = new int[] { 1, 5, 5, 8, 4, 2, 4, 8, 9, 66, 1, 1 };
         int[] withoutDups = new int[] {1, 5, 8, 4, 2, 9, 66 };
 
-        LinkedListCh2 list = new LinkedListCh2(withDups);
+        LinkedList list = new LinkedList(withDups);
 
         assertArrayEquals(withDups, list.toIntArray());
 
@@ -29,7 +30,7 @@ public class LinkedListCh2Test {
     public void testIndexFromBack() throws Exception {
         int[] array = new int[] { 1, 6, 9, 5, 3, 7, 2 };
 
-        LinkedListCh2 list = new LinkedListCh2(array);
+        LinkedList list = new LinkedList(array);
 
         assertEquals(2, list.indexFromTheBack(0));
         assertEquals(3, list.indexFromTheBack(2));
@@ -41,7 +42,7 @@ public class LinkedListCh2Test {
     public void testIndexFromBackWithoutSize() throws Exception {
         int[] array = new int[] { 1, 6, 9, 5, 3, 7, 2 };
 
-        LinkedListCh2 list = new LinkedListCh2(array);
+        LinkedList list = new LinkedList(array);
 
         assertEquals(2, list.indexOfFromTheBack(0));
         assertEquals(3, list.indexOfFromTheBack(2));

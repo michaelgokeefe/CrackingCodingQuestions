@@ -1,4 +1,4 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter1;
 
 import java.util.HashMap;
 import java.util.Hashtable;
@@ -8,7 +8,7 @@ import java.util.TreeSet;
 /**
  * Created by Michael on 1/4/17.
  */
-public class StringsCh1 {
+public class Strings {
 
     // 1.1
     public static boolean isUniqueWithSet(String toCheck) {

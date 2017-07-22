@@ -1,9 +1,9 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter5;
 
 /**
  * Created by Michael on 2/26/17.
  */
-public class BitManipulationCh5 {
+public class BitManipulation {
 
     public static int insertBits(int N, int M, int i, int j) {
         if (j - i > 32) { throw new IllegalArgumentException("Only 32 bits supported."); }

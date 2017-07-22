@@ -1,11 +1,11 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter2;
 
 import java.util.HashSet;
 
 /**
  * Created by Michael on 1/27/17.
  */
-public class LinkedListCh2 {
+public class LinkedList {
 
     private Node head = null;
     private Node back = null;
@@ -20,7 +20,7 @@ public class LinkedListCh2 {
         }
     }
 
-    LinkedListCh2(int[] initValues) {
+    public LinkedList(int[] initValues) {
         for (int i = 0; i < initValues.length; i++) {
             addNode(initValues[i]);
         }

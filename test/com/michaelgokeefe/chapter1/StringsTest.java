@@ -1,5 +1,6 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter1;
 
+import com.michaelgokeefe.chapter1.Strings;
 import org.junit.*;
 
 import static org.junit.Assert.*;
@@ -7,7 +8,7 @@ import static org.junit.Assert.*;
 /**
  * Created by Michael on 1/4/17.
  */
-public class StringsCh1Test {
+public class StringsTest {
 
     String s1 = "m";
     String s2 = "ee";
@@ -23,27 +24,27 @@ public class StringsCh1Test {
 
     @Test
     public void isUniqueWithSet() throws Exception {
-        assertEquals(true, StringsCh1.isUniqueWithSet(s1));
-        assertEquals(false, StringsCh1.isUniqueWithSet(s2));
-        assertEquals(false, StringsCh1.isUniqueWithSet(s3));
-        assertEquals(true, StringsCh1.isUniqueWithSet(s4));
-        assertEquals(false, StringsCh1.isUniqueWithSet(s5));
+        assertEquals(true, Strings.isUniqueWithSet(s1));
+        assertEquals(false, Strings.isUniqueWithSet(s2));
+        assertEquals(false, Strings.isUniqueWithSet(s3));
+        assertEquals(true, Strings.isUniqueWithSet(s4));
+        assertEquals(false, Strings.isUniqueWithSet(s5));
     }
 
     @Test
     public void isUniqueWithHashtable() throws Exception {
-        assertEquals(true, StringsCh1.isUniqueWithHashTable(s1));
-        assertEquals(false, StringsCh1.isUniqueWithHashTable(s2));
-        assertEquals(false, StringsCh1.isUniqueWithHashTable(s3));
-        assertEquals(true, StringsCh1.isUniqueWithHashTable(s4));
-        assertEquals(false, StringsCh1.isUniqueWithHashTable(s5));
+        assertEquals(true, Strings.isUniqueWithHashTable(s1));
+        assertEquals(false, Strings.isUniqueWithHashTable(s2));
+        assertEquals(false, Strings.isUniqueWithHashTable(s3));
+        assertEquals(true, Strings.isUniqueWithHashTable(s4));
+        assertEquals(false, Strings.isUniqueWithHashTable(s5));
     }
 
     @Test
     public void checkPermutation() throws Exception {
-        assertEquals(true, StringsCh1.checkPermutation(s6, s7));
-        assertEquals(true, StringsCh1.checkPermutation(s8, s9));
-        assertEquals(false, StringsCh1.checkPermutation(s7, s10));
+        assertEquals(true, Strings.checkPermutation(s6, s7));
+        assertEquals(true, Strings.checkPermutation(s8, s9));
+        assertEquals(false, Strings.checkPermutation(s7, s10));
     }
 
     @Test
@@ -51,7 +52,7 @@ public class StringsCh1Test {
         String inputStr =  "Mr John Smith    ";
         String outputStr = "Mr%20John%20Smith";
 
-        assertEquals(outputStr, new String(StringsCh1.replaceSpaces(inputStr.toCharArray(), 13)));
+        assertEquals(outputStr, new String(Strings.replaceSpaces(inputStr.toCharArray(), 13)));
     }
 
     @Test
@@ -59,8 +60,8 @@ public class StringsCh1Test {
         String yes = "TtyYLlo";
         String no = "TtyYLloohhhy";
 
-        assertEquals(false, StringsCh1.isPalindromePermutation(no));
-        assertEquals(true, StringsCh1.isPalindromePermutation(yes));
+        assertEquals(false, Strings.isPalindromePermutation(no));
+        assertEquals(true, Strings.isPalindromePermutation(yes));
     }
 
     @Test
@@ -77,10 +78,10 @@ public class StringsCh1Test {
         String no3 = "bucket";
         String no4 = "bckit";
 
-        assertEquals(true, StringsCh1.isOneAway(yes1, yes2));
-        assertEquals(true, StringsCh1.isOneAway(yes3, yes4));
-        assertEquals(false, StringsCh1.isOneAway(no1, no2));
-        assertEquals(false, StringsCh1.isOneAway(no3, no4));
+        assertEquals(true, Strings.isOneAway(yes1, yes2));
+        assertEquals(true, Strings.isOneAway(yes3, yes4));
+        assertEquals(false, Strings.isOneAway(no1, no2));
+        assertEquals(false, Strings.isOneAway(no3, no4));
     }
 
     // 1.6
@@ -94,7 +95,7 @@ public class StringsCh1Test {
     }
 
     private void testCompression(String toCompress, String expectedResult) {
-        assertEquals(expectedResult, StringsCh1.compressString(toCompress));
+        assertEquals(expectedResult, Strings.compressString(toCompress));
     }
 
 

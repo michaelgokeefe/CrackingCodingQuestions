@@ -1,20 +1,18 @@
-package com.michaelgokeefe;
+package com.michaelgokeefe.chapter4;
 
-import apple.laf.JRSUIUtils;
+import com.michaelgokeefe.chapter4.Tree;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Michael on 2/26/17.
  */
-public class TreeCh4Test {
+public class TreeTest {
     @Test
     public void constructMinHeightBST() throws Exception {
-        TreeCh4 tree = new TreeCh4();
+        Tree tree = new Tree();
 
         int[] elements = new int[] {1, 5, 6, 7, 10, 35};
-        TreeCh4.BSTNode root = tree.constructMinHeightBST(elements);
+        Tree.BSTNode root = tree.constructMinHeightBST(elements);
 
         tree.printInOrderTraversal(root);
     }
