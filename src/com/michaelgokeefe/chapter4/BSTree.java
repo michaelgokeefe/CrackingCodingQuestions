@@ -3,7 +3,7 @@ package com.michaelgokeefe.chapter4;
 /**
  * Created by Michael on 2/26/17.
  */
-public class Tree {
+public class BSTree {
 
     public class BSTNode {
         int data;
