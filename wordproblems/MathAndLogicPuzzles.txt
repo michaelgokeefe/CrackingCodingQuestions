@@ -1,0 +1,14 @@
+6.1 - The Heavy Pill
+
+Put all pills on the scale, then pull a pill bottle off one at a time until the total weight drops by 1.1 g
+rather than 1 g. If the weight never drops by 1.1 g until the last pill bottle remains, then that is the heavy pill
+bottle. (assumption is the scale fits all bottles at once).
+
+Without the above assumption:
+
+Line up the pill bottles, take one pill from pill bottle one, two pills from pill bottle two, and so on up to pill
+bottle 20:
+
+1 + 2 + 3 ... + 20 = 210.
+
+(actualWeight - 210) / 0.1 grams = pill bottle with the heavy pills
