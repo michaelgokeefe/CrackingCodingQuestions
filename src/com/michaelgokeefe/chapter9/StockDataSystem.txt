@@ -1,0 +1,79 @@
+ch. 9.1 Stock Data
+
+Scope:
+
+1000 client apps
+Front-end service
+Send EOD stock info
+Data stored in any format
+
+Assumptions:
+
+Clients must request data
+Server will send most recent EOD info
+Stores EOD info for millions of companies
+
+Important:
+
+Client ease of use
+Ease for ourselves to develop
+Flexibility for future
+Scalable and efficient
+
+Data Format Approach:
+
+SQL
+
+Advantages:
+Clients could plug directly into the DB
+Clients could query anything - also a security issue if they perform malicious queries
+Layer of security, rollback, and data backup
+
+Disadvantages:
+Heavy weight - maybe more complex than needed
+Not human readable - may have to implement another layer for viewing
+Security - giving clients too much access
+
+JSON / XML
+
+Advantages:
+The data has a fixed format / size
+Easy to distribute
+Machine and human readable
+Support for parsing in most programming languages
+Add new data (companies) by adding new nodes
+Easy file backup
+
+Disadvantages:
+If all info stored in a large file - sending all info is not efficient (client may only want one companies info)
+Clients must parse data to query
+
+Layer 2 Approach:
+
+Could have a web service layer (rather than just SQL or FTP).
+
+adv:
+Additional security
+View data
+May be easier for integration
+
+dis:
+Clients can only query what we provide access too
+
+Example Approach:
+
+Design a web service - easy access for all client applications
+Data stored in JSON
+New JSON file for each date (date query/backup)
+As data gets to large add new machines for newer dates (keep look up table)
+
+Adv:
+Easy to implement
+Easy backup
+Easy to integrate for client
+Secure
+
+Dis:
+Not many available queries besides date - client must parse
+
+
