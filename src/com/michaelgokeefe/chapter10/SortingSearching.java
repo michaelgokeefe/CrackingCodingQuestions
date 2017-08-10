@@ -4,7 +4,17 @@ package com.michaelgokeefe.chapter10;
  * Created by Michael on 2/27/17.
  */
 public class SortingSearching {
+    // quick sort practice
+    // o(log n) space
+    // o(n * log n) ave case
+    // o(n^2) worst case - bad pivot point
+    public static void quickSort(int[] array) {
+
+    }
+
     // merge sort practice
+    // o(n) space
+    // o(n * log(n)) worst and ave case
     public static void mergeSort(int[] array) {
         mergeSort(array, new int[array.length], 0, array.length - 1);
     }
@@ -38,7 +48,7 @@ public class SortingSearching {
             current++;
         }
 
-        int remaining = middle - leftHelper;
+        int remaining = middle - leftHelper;    // only for left side - right side is in place
         for (int i = 0; i <= remaining; i++) {
             array[current + i] = helper[leftHelper + i];
         }

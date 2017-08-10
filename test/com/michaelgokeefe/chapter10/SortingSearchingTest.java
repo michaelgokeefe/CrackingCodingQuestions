@@ -46,6 +46,14 @@ public class SortingSearchingTest {
         testExpectedAndActual();
     }
 
+    // quick sort
+    @Test
+    public void quickSort_SortEmptyArray() {
+        setUpExpectedAndActual(new int[0]);
+        SortingSearching.quickSort(actual);
+        testExpectedAndActual();
+    }
+
     // 10.1
     @Test
     public void merge() throws Exception {
