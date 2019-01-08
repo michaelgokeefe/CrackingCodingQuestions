@@ -256,4 +256,41 @@ public class Strings {
 
         return stringBuilder.toString();
     }
+
+
+    // 1.9 - String Rotation - 1/7/2019
+    // 0(n) time
+    // Note: can be done more simply by performing isSubstring(s1 + s1, s2) along with the necessary null/length checks
+    public static boolean isRotation(String s1, String s2) {
+        if (s1.length() != s2.length()) return false;
+
+        if (s1.length() == 0) return true;
+
+        int i1 = 0, i2 = 0;
+
+        StringBuilder head = new StringBuilder();
+        StringBuilder tail = new StringBuilder();
+
+        for (; i2 < s2.length(); i2++) {
+            char c = s2.charAt(i2);
+            if (c == s1.charAt(i1)) {
+                i1++;
+                head.append(c);
+            } else {
+                i1 = 0;
+                if (head.length() != 0) {
+                    tail.append(head.toString());
+                    head.setLength(0);
+                }
+                tail.append(c);
+            }
+        }
+
+        if (head.length() == 0) return false;
+        else if (head.length() == s1.length()) return true;
+
+        // Works as isSubstring(s1, tail);
+        String expectedTail = s1.substring(i1, s1.length());
+        return expectedTail.equals(tail.toString());
+    }
 }

@@ -98,6 +98,14 @@ public class StringsTest {
         assertEquals(expectedResult, Strings.compressString(toCompress));
     }
 
-
-
+    // 1.9
+    @Test
+    public void testIsRotation() {
+        assertTrue(Strings.isRotation("waterbottle", "erbottlewat"));
+        assertTrue(Strings.isRotation("plexplexplexington", "lexplexingtonplexp"));
+        assertTrue(Strings.isRotation("", ""));
+        assertTrue(Strings.isRotation("a", "a"));
+        assertTrue(Strings.isRotation("water", "water"));
+        assertFalse(Strings.isRotation("water" ,"wate"));
+    }
 }
