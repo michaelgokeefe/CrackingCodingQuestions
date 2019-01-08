@@ -1,6 +1,5 @@
 package com.michaelgokeefe.chapter10;
 
-import com.michaelgokeefe.chapter10.SortingSearching;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -53,16 +52,7 @@ public class SortingSearchingTest {
         SortingSearching.quickSort(actual);
         testExpectedAndActual();
     }
-
-    // 10.1
-    @Test
-    public void merge() throws Exception {
-        int[] a = new int[]{1, 5, 10, 17, 19, 0, 0, 0};
-        int[] b = new int[]{1, 11, 27};
-        SortingSearching.merge(a, b, 4);
-        assertArrayEquals(new int[]{1, 1, 5, 10, 11, 17, 19, 27}, a);
-    }
-
+    
     private void setUpExpectedAndActual(int[] arrayToSort) {
         expected = arrayToSort;
         actual = Arrays.copyOf(expected, expected.length);
@@ -73,4 +63,45 @@ public class SortingSearchingTest {
         assertArrayEquals(expected, actual);
     }
 
+    // 10.1
+    @Test
+    public void merge() throws Exception {
+        int[] a = new int[] { 1, 5, 10, 17, 19, 0, 0, 0 };
+        int[] b = new int[] { 1, 11, 27 };
+        SortingSearching.mergeArrays(a, b, 4);
+        assertArrayEquals(new int[] { 1, 1, 5, 10, 11, 17, 19, 27 }, a);
+    }
+
+    // merge sort 2018
+    @Test
+    public void testEmpty() {
+        int[] a = new int[] {};
+        SortingSearching.mergesort(a);
+        assertArrayEquals(new int[] {}, a);
+    }
+
+    @Test
+    public void testSingleElement() {
+        int[] a = new int[] {1};
+        SortingSearching.mergesort(a);
+        assertArrayEquals(new int[] {1}, a);
+    }
+
+    @Test
+    public void testEvenElements() {
+        int[] a = new int[] {10, 9, 15, 18, -1, 11, 11, 7};
+        int[] answer = Arrays.copyOf(a, a.length);
+        Arrays.sort(answer);
+        SortingSearching.mergesort(a);
+        assertArrayEquals(answer, a);
+    }
+
+    @Test
+    public void testOddElements() {
+        int[] a = new int[] {27, 8, -2, -5, -1};
+        int[] answer = Arrays.copyOf(a, a.length);
+        Arrays.sort(answer);
+        SortingSearching.mergesort(a);
+        assertArrayEquals(answer, a);
+    }
 }
